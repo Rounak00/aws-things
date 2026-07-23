@@ -1,0 +1,17 @@
+{
+  "name": "s3-backup",
+  "version": "1.0.0",
+  "description": "Downloads an entire S3 bucket to a local folder, preserving folder structure",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "download-bucket.js",
+  "scripts": {
+    "start": "node download-bucket.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "dotenv": "^17.4.2",
+    "file-type": "^21.3.4"
+  }
+}
