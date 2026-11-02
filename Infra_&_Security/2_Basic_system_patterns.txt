@@ -1,0 +1,10 @@
+Three Tier APP -> ALB + EC2 + RDS : Traditional web apps
+Static Website -> S3 + CloudFront : Fast content sites
+Serverless API -> API Gateway + Lambda : Traffic that changes
+Event-Driven System -> Event Bridge + Lambda : De-Coupled Workflow
+Queue Worker -> SQS + Lambda/ECS : Background jobs
+Container App -> ECS/EKS + ALB : Container Workloads
+Data Lake -> S3 + Glue + Athena : Large Scale Analytics
+Streaming -> Kinesis + Lambda : Real time Data
+Multi AZ app -> ALB + ASG + RDS : High Avalibility
+Backup + DR -> AWS Backup + S3 : Recovery and continuity
